@@ -6,16 +6,61 @@ body {
   background-color: beige;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: x-large;
+  background-image: url(https://s19529.pcdn.co/wp-content/uploads/2020/02/Angel-Stadium-1-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 1330px 280px;
 }
 
 h1 {
   color: red;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.75em;
+  text-shadow: 2px 2px whitesmoke;
 }
 
-#lazy_squirrel {
+h2{
+  color: rgb(17, 0, 255);
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px rgb(255, 0, 0);
+}
+
+h3{
+  color: rgb(255, 123, 0);
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px black;
+}
+
+#image {
   width: 30%;
   border: 5px solid darkred;
   border-radius: 10px;
 }
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd00;
+text-align: center;
+padding: 8px;}
+
+
+a:link, a:visited {
+  background-color: white;
+  color: rgb(255, 0, 0);
+  border: 2px solid orange;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
